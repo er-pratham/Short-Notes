@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.Header_main_div
+{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 10vh;
+    background-color: #FDDA0D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Header_main_div h1
+{
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 1px;
+    
+}

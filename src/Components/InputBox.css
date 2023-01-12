@@ -1,0 +1,79 @@
+.Input_Box
+{
+    /* border: 2px solid red; */
+    width: 100vw;
+    margin-top: 4vh;
+}
+.input_data
+{
+    /* border: 2px solid grey; */
+    width: 30vw;
+    display: block;
+    margin: auto;
+    width: max-content;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    height: max-content;
+
+}
+.input1 ,.input2
+{
+    display: block;
+    width: 28vw;
+    outline: none;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+}
+.input1{
+    height: 4vh;
+    /* display: none; */
+    font-size: 1.8rem;
+}
+.input2
+{
+    height: 10vh;
+    font-size: 1rem;
+    /* min-width: 28vw; */
+}    
+.button
+{
+    display: flex;
+    /* background-color: aqua; */
+    flex-direction: row-reverse;
+    /* display: none; */
+}
+.warnmessage
+{
+    color: red;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1vw;
+}
+@media only screen and (max-width: 768px) {
+    .input_data
+    {
+        width: 57vw;
+    }
+    .input1,.input2
+    {
+        width: 55vw;
+    }
+  }
+  @media only screen and (max-width: 480px) {
+    .input_data
+    {
+        width: 80vw;
+    }
+    .input1,.input2
+    {
+        width: 78vw;
+    }
+    .input1{
+        font-size: 1.5rem;
+    }
+    
+  }
