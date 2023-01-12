@@ -11,7 +11,7 @@ export default function InputBox(props) {
       content:""
     })
     const addbutton=()=>{
-      // let space=spaceCount();
+      // Count the Spaces in title
     {if(data.title.length===0)
       {
         setWarn("Title can not be empty.");
